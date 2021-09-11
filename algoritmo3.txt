@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdio.h>
+ 
+int main() {
+
+ 
+  double A, raio; 
+  
+  scanf ("%lf", &raio);
+  
+  A= 3.14159*raio*raio;
+ 
+
+  
+  printf ("A=%1.4lf\n", A);
+ 
+    return 0;
+}
